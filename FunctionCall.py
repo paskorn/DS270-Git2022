@@ -1,8 +1,7 @@
-def earn (total,number=5):
+def earn (number, total=10, sum):
     result = total/number
     return result
 
-print( earn(250,10) )
-print( earn(20) )
-print( earn(total=500) )
+
+print( earn(20,30, 40) )
 
