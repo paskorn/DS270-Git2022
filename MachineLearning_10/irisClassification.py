@@ -32,3 +32,20 @@ y_model = model.predict(Xtest)              # 4. predict on new data
 #---------------- Check Accuracy
 from sklearn.metrics import accuracy_score
 print(accuracy_score(ytest, y_model))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

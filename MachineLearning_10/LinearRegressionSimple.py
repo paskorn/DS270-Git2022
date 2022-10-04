@@ -21,8 +21,7 @@ from sklearn.linear_model import LinearRegression
 
 #------------- 2 Choose Hyper Parameter
 model = LinearRegression(fit_intercept=True)
-print(model)
-
+#print(model)
 
 #------------- 3 Arrange DATA
 X = x[:, np.newaxis] # X Features
@@ -37,4 +36,4 @@ xfit = np.linspace(-1, 11)
 Xfit = xfit[:, np.newaxis]
 yfit = model.predict(Xfit)
 plt.plot(xfit, yfit, color='red');
-print(model.predict ([[10]]) )
+#print(model.predict ([[10]]) )
