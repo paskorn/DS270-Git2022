@@ -18,7 +18,19 @@ html = list(soup.children)[2]
 #We want to extract the text inside the p tag, 
 #so we’ll dive into the body:
 body = list(html.children)[3]
-print(list(body.children))
+#print(list(body.children))
 
-#p = list(body.children)[1]
+p = list(body.children)[1]
 #print(p.get_text())
+
+print(soup.find_all('p')[1].get_text())
+
+
+
+
+
+
+
+
+
+
